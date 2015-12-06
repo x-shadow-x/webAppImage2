@@ -1,0 +1,19 @@
+blockquote, body, button, dd, dl,fieldset, form, h1, h2, h3, h4, h5, h6,hr, input, legend, li, ol, p, pre, td, textarea, th, ul, img {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #000;
+}
+ul {
+	list-style: none; 
+}
+li {
+	float: left;
+	overflow: hidden;
+}
+.large {
+	
+	background-color: #000;
+	display: none;
+}
