@@ -61,7 +61,6 @@ function loadImage(_id, callback) {
 			//此时认为是横图
 			largeImg.attr("src", imgSrc).css("width", winW).css("padding-top",paddingTop);
 		}
-		console.log(callback);
 		callback && callback();
 	}
 	img.src = imgSrc;//获取图片
